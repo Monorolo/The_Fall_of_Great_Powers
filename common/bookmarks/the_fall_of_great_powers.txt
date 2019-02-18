@@ -1,0 +1,109 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_FALL_OF_GREAT_POWERS_NAME"
+		desc = "THE_FALL_OF_GREAT_POWERS_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "POL"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		"POL"={
+			minor = no
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				war_economy
+				limited_conscription
+				limited_exports
+			}
+			focuses = {
+				
+			}
+		}
+		"EPL"={
+			minor = no
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				war_economy
+				limited_conscription
+				limited_exports
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		# minors from DLC ####
+		"SOV"={
+			minor = yes
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

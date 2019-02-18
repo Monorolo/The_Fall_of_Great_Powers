@@ -1,0 +1,31 @@
+
+state={
+	id=181
+	name="STATE_181"
+	manpower = 1904600
+	
+	state_category = town
+	
+	resources={
+		tungsten=150 # was: 300
+	}
+
+	history={
+		owner = GER
+		controller = GER
+
+		add_core_of = GER
+		add_core_of = SPR
+		add_core_of = POR
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		
+	}
+
+	provinces={
+		845 889 938 3969 6818 6996 9787 11885 
+	}
+}

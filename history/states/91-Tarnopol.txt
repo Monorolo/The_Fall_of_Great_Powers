@@ -1,0 +1,41 @@
+state={
+	id=91
+	name="STATE_91" # Lwow
+	manpower = 6227800
+	
+	state_category = megalopolis
+	
+	history={
+
+		owner = POL
+		controller = POL
+
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = UKR
+		
+		victory_points = {
+			11479 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			air_base = 5
+		}
+
+		1936.1.1 = {
+			owner = EPL
+			controller = EPL
+
+			add_core_of = POL
+			add_core_of = EPL
+			add_core_of = UKR
+		}
+		
+		
+	}
+
+	provinces={
+		438 491 536 3483 3562 9454 9468 9558 11427 11479 
+	}
+}
