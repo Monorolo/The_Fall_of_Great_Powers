@@ -12,6 +12,12 @@ state={
 	}
 
 	history={
+
+
+		owner = IND
+		controller = IND
+		add_core_of = IND
+		add_core_of =
 		
 		buildings = {
 			infrastructure = 3

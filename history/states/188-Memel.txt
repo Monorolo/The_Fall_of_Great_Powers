@@ -9,10 +9,10 @@ state={
 	
 	history = {
 
-		owner = GER
-		controller = GER
+		owner = NGR
+		controller = NGR
 
-		add_core_of = ELB
+		add_core_of = NGR
 		add_core_of = GER
 		add_core_of = LIT
 		
@@ -26,10 +26,10 @@ state={
 		
 
 		1936.1.1 = {
-			owner = ELB
-			controller = ELB
+			owner = NGR
+			controller = NGR
 
-			add_core_of = ELB
+			add_core_of = NGR
 			add_core_of = GER
 		}
 	}

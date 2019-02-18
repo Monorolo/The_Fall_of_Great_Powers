@@ -1,0 +1,19 @@
+			Alpha 1.0
+
+- first Alpha
+
+
+			Alpha 1.1
+
+- conversion "Elbing" to "New Germany"
+
+- add leaders for "New Germany"
+
+- add leaders for Gdañsk
+
+- add Flag for Gdañsk
+
+- add new tag "RUS" "IND" "NJP"
+
+			Alpha 1.2
+
