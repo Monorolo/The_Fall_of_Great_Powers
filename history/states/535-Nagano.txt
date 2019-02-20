@@ -11,6 +11,11 @@ state={
 	}
 
 	history={
+
+		owner = JAP
+
+		controller = JAP
+		add_core_of = JAP
 		
 		
 		buildings = {

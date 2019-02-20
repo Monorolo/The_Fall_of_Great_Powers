@@ -3,6 +3,12 @@ state={
 	name="STATE_600"
 
 	history={
+
+		owner = CHI
+
+		controller = CHI
+		add_core_of = PRC
+		add_core_of = CHI
 		
 		
 		

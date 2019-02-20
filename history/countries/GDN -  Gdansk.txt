@@ -30,54 +30,32 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 60
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 20
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1935.9.8"
 	election_frequency = 36
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Witold Wróblewski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Witold_Wróblewski.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Witold Wróblewski"
-	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Witold_Wróblewski.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Witold Wróblewski"
+	name = "Heinrich Sahm"
 	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Witold_Wróblewski.dds"
+	picture = "Heinrich_Sahm.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -86,9 +64,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Witold Wróblewski"
+	name = "Ernst Ziehm"
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "Witold_Wróblewski.dds"
+	picture = "Ernst_Ziehm.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -97,9 +75,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Witold Wróblewski"
+	name = "Piotr Stolarek"
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "Witold_Wróblewski.dds"
+	picture = "Piotr_Stolarek.dds"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {

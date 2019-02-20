@@ -75,7 +75,7 @@ set_politics = {
 
 create_faction = Axis
 add_to_faction = GER
-add_to_faction = ELB
+add_to_faction = NGR
 
 
 add_ideas = {

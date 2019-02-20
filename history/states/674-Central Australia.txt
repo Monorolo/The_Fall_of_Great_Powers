@@ -7,6 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
+
+		owner = JAP
+
+		controller = JAP
+		add_core_of = JAP
 		
 		buildings = {
 			infrastructure = 1

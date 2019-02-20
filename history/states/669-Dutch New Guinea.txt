@@ -6,6 +6,11 @@ state={
 	state_category = pastoral
 
 	history= {
+
+		owner = JAP
+
+		controller = JAP
+		add_core_of = JAP
 		
 		
 		victory_points = {

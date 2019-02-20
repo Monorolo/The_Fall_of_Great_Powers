@@ -1,10 +1,5 @@
 #reload countrycolors
 
-
-SOV = {
-	color = rgb { 23 114 68 }
-	color_ui = rgb { 163 17 31 }
-}
 SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
@@ -476,7 +471,7 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 #########################################
-ELB = {
+NGR = {
         color = rgb { 104 104 104 }
         color_ui = rgb { 204 204 204 }
 }
@@ -547,4 +542,24 @@ GER = {
 ENG = {
 	color = rgb { 148 56 93 }
 	color_ui = rgb { 111 204 105 }
+}
+RUS = {
+	color = rgb { 19 65 6 }
+	color_ui = rgb { 119 39 6 }
+}
+JAP = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+IND = {
+	color = rgb { 227 110 39 }
+	color_ui = rgb { 207 101 39 }
+}
+SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+NJP = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
 }

@@ -9,7 +9,7 @@ state={
 	history={
 		owner = GER
 		controller = GER
-		add_core_of = ELB
+		add_core_of = NGR
 		add_core_of = GER
 		victory_points = {
 			3380 10 
@@ -23,10 +23,10 @@ state={
 		}
 
 		1936.1.1 = {
-			owner = ELB
-			controller = ELB
+			owner = NGR
+			controller = NGR
 
-			add_core_of = ELB
+			add_core_of = NGR
 			add_core_of = GER
 		}
 

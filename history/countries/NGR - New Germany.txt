@@ -1,0 +1,209 @@
+﻿capital = 5
+
+oob = "NGR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	transport = 1
+}
+
+set_convoys = 10
+
+1936 = {
+# DIPLOMACY / WAR 36
+	declare_war_on = {
+		target = LIT
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = LAT
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = EST
+		type = annex_everything
+	}
+}
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Erich Koch"
+	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
+	picture = "Erich_Koch.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ludwig Hubert von Windheim"
+	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
+	picture = "Ludwig_Hubert_von_Windheim.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Adolf Tortilowicz von Batocki-Friebe"
+	desc = "POLITICS_WINCENTY_WITOS_DESC"
+	picture = "Adolf_Tortilowicz_von_Batocki-Friebe.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Erich Koch"
+	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
+	picture = "Erich_Koch.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Władysław Sikorski"
+	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Władysław Bortnowski"
+	gfx = "GFX_POL_wladyslaw_bortnowski"
+	traits = {  thorough_planner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Stanisław Kopański"
+	gfx = "GFX_POL_stanislav_kopanski"
+	traits = {  offensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Władysław Anders"
+	gfx = "GFX_POL_wladislaw_anders"
+	traits = {  armor_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Roman Abraham"
+	gfx = "GFX_POL_roman_abraham"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Wincenty Kowalski"
+	gfx = "GFX_POL_wincenty_kowalski"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_equipment_variant = {
+	name = "PZL P.24"
+	type = fighter_equipment_0
+	upgrades = {
+		plane_gun_upgrade = 3
+		plane_range_upgrade = 0  
+		plane_engine_upgrade = 1
+		plane_reliability_upgrade = 3
+	}
+}

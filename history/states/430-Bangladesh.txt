@@ -7,6 +7,12 @@ state={
 	state_category = town
 
 	history={
+
+
+		owner = IND
+		controller = IND
+		add_core_of = IND
+		add_core_of =
 		
 		victory_points = {
 			11929 1
