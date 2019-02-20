@@ -9,6 +9,11 @@ state= {
 	state_category = rural
 
 	history= {
+
+		owner = JAP
+
+		controller = JAP
+		add_core_of = JAP
 		
 		#
 		# # Removed because of too much aggression

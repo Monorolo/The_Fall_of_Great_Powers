@@ -12,6 +12,11 @@ state=
 
 	history=
 	{
+
+		owner = JAP
+
+		controller = JAP
+		add_core_of = JAP
 		
 		victory_points = {
 			7371 1

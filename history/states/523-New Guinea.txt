@@ -3,6 +3,11 @@ state={
 	name="STATE_523"
 
 	history={
+
+		owner = JAP
+
+		controller = JAP
+		add_core_of = JAP
 		
 		buildings = {
 			infrastructure = 2

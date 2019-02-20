@@ -10,6 +10,12 @@ state={
 	}
 
 	history={
+
+
+		owner = IND
+		controller = IND
+		add_core_of = IND
+		add_core_of =
 		
 		victory_points = {
 			8087 1

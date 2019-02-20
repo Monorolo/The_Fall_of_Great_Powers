@@ -9,6 +9,11 @@ state={
 	}
 
 	history={
+
+		owner = SOV
+		controller = SOV
+		add_core_of = RUS
+		add_core_of = SOV
 		
 		victory_points = {
 			4797 3 

@@ -6,6 +6,11 @@ state=
 	manpower=21657
 	history=
 	{
+
+		owner = JAP
+
+		controller = JAP
+		add_core_of = JAP
 		
 		
 		buildings = {
