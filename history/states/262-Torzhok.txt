@@ -11,13 +11,8 @@ state={
 	}
 
 	history={
-
 		owner = RUS
-
-		controller = RUS
 		add_core_of = RUS
-		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -25,7 +20,7 @@ state={
 			}
 
 		}
-		
+		add_core_of = SOV
 	}
 
 	provinces={

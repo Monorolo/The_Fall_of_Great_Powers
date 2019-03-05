@@ -8,14 +8,7 @@ state={
 	}
 	state_category = town
 	history={
-
 		owner = EST
-		controller = EST
-
-		add_core_of = EST
-		add_core_of = ELB
-		add_core_of = GER
-		
 		victory_points = {
 			3152 5 
 		}
@@ -29,7 +22,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		
+		add_core_of = EST
 	}
 
 	provinces={

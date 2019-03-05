@@ -1,0 +1,25 @@
+
+state={
+	id=764
+	name="STATE_764"
+	manpower = 585579
+	state_category = town
+
+	history={
+
+		buildings = {
+			infrastructure = 6
+		}
+
+		owner = HUN
+
+		controller = HUN
+		add_core_of = ROM
+		add_core_of = HUN
+		add_core_of = OTT	
+	}
+
+	provinces={
+		614 3614 6643 11787
+	}
+}

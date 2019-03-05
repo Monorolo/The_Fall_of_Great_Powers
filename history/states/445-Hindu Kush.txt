@@ -8,13 +8,17 @@ state={
 
 	history={
 
-		owner = OTT
-		
+	owner = IND
+
+	controller = IND
+	add_core_of = IND
+		victory_points = {
+			5105 1
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 4
 		}
-		
 	}
 
 	provinces={

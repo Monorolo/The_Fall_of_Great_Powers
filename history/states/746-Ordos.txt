@@ -9,31 +9,16 @@ state={
 	
 	history=
 	{
-		
+	owner = PRC
 
-		owner = PRC
-
-		controller = PRC
-		add_core_of = PRC
-		add_core_of = CHI
-		
-		
-		
+	controller = PRC
+	add_core_of = PRC
+	add_core_of = CHI
 		
 		buildings = {
 			infrastructure = 2
 		}
 
-		1938.10.25 = {
-			
-		}
-		
-		1939.1.1 = {
-			
-			
-			
-
-		}
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

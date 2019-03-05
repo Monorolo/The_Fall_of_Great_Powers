@@ -10,14 +10,6 @@ state={
 	state_category = city
 
 	history={
-
-		owner = ROM
-		controller = ROM
-
-		add_core_of = ROM
-		add_core_of = OTT
-		add_core_of = HUN		
-
 		victory_points = { 9617 20 }
 		victory_points = { 3663 5 }
 		victory_points = { 657 3 }
@@ -34,7 +26,14 @@ state={
 			}
 			dockyard = 1
 		}
-		
+
+		owner = ROM
+
+		controller = ROM
+		add_core_of = ROM
+		add_core_of = HUN
+		add_core_of = OTT
+
 	}
 
 	provinces={

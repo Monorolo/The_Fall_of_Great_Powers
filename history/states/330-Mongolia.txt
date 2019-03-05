@@ -11,14 +11,12 @@ state={
 	state_category = town
 
 	history={
+	owner = MON
 
-		owner = MON
-
-		controller = MON
-		add_core_of = PRC
-		add_core_of = CHI
-		add_core_of = MON
-		
+	controller = MON
+	add_core_of = PRC
+	add_core_of = CHI
+	add_core_of = MON
 		victory_points = {
 			4801 5
 		}
@@ -31,7 +29,6 @@ state={
 			industrial_complex = 3
 			air_base = 1
 		}
-		
 	}
 
 	provinces={

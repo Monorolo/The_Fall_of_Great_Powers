@@ -8,12 +8,8 @@ state=
 	
 	history=
 	{
-
 		owner = JAP
-
-		controller = JAP
 		add_core_of = JAP
-		
 		buildings = {
 			infrastructure = 3
 			12118 = {
@@ -24,7 +20,7 @@ state=
 		victory_points = {
 			12118 1 
 		}
-		
+		add_core_of = PHI
 	}
 
 	provinces={

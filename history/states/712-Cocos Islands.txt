@@ -6,12 +6,7 @@ state={
 	
 	history=
 	{
-
-		owner = JAP
-
-		controller = JAP
-		add_core_of = JAP
-		
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			13002 = {

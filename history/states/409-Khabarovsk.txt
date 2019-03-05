@@ -10,14 +10,12 @@ state={
 	state_category = rural
 
 	history={
+	owner = NJP
 
-		owner = NJP
-
-		controller = NJP
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = NJP
-		
+	controller = NJP
+	add_core_of = CHI
+	add_core_of = PRC
+	add_core_of = NJP
 		victory_points = {
 			12189 1
 		}
@@ -29,7 +27,6 @@ state={
 				naval_base = 1
 			}
 		}
-		
 	}
 
 	provinces={

@@ -11,13 +11,16 @@ state=
 
 	history=
 	{
-		owner = ETH
-		
+	owner = ETH
+
+	controller = ETH
+	add_core_of = ETH
+	add_core_of = OTT
 		buildings = {
-			infrastructure = 6
-			arms_factory = 5
-			industrial_complex = 7
-			air_base = 3
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 1
 		}
 		victory_points = { 
 			5010 5 
@@ -27,12 +30,6 @@ state=
 		}
 		victory_points = { 
 			7980 1.0 
-		}
-		
-
-		1936.6.1 = {
-			
-			
 		}
 	}
 

@@ -12,13 +12,10 @@ state={
 	}
 
 	history={
+	owner = IND
 
-
-		owner = IND
-		controller = IND
-		add_core_of = IND
-		add_core_of =
-		
+	controller = IND
+	add_core_of = IND
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -27,7 +24,6 @@ state={
 		victory_points = {
 			8010 3 
 		}
-		
 	}
 
 	provinces={

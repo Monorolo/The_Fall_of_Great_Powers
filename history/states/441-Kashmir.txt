@@ -2,26 +2,22 @@
 state={
 	id=441
 	name="STATE_441"
-	manpower = 3539500
+	manpower = 2123700
 	
 	state_category = rural
 
 	history={
 
-		owner = PRC
+	owner = IND
 
-		controller = PRC
-		add_core_of = PRC
-		add_core_of = CHI
-		
+	controller = IND
+	add_core_of = IND
 		buildings = {
 			infrastructure = 2
 		}
-		
-		
 	}
 
 	provinces={
-		1910 2041 5042 7273 7316 8005 10821 10905 12754 12884 
+		5042 7273 7316 8005 10905 12754 12884 
 	}
 }

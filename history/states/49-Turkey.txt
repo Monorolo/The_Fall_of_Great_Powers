@@ -2,24 +2,19 @@
 state={
 	id=49
 	name="STATE_49" # Ankara
-	manpower = 770758
+	manpower = 10770758
 	resources={
 		chromium=11 # was: 16
 	}
 	
-	state_category = town
+	state_category = megalopolis
 
 	history={
-
-		owner = OTT
-		controller = OTT
-
-		add_core_of = TUR
-		add_core_of = OTT
-		
-		
 		victory_points = {
 			11747 10 
+		}
+		victory_points = {
+			3951 1
 		}
 		buildings = {
 			infrastructure = 4
@@ -27,7 +22,13 @@ state={
 			industrial_complex = 2
 			air_base = 3
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = OTT
+	add_core_of = TUR
+
 	}
 
 	provinces={

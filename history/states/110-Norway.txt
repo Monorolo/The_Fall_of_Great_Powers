@@ -11,18 +11,16 @@ state={
 	}
 
 	history={
-
-		owner = SWE
-		controller = SWE
-
-		add_core_of = SWE
-		add_core_of = NOR
-
 		victory_points = {
 			6115 15 
 		}
 		
-		
+	owner = SWE
+	
+	controller = SWE
+	add_core_of = NOR
+	add_core_of = SWE
+
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -34,7 +32,6 @@ state={
 				coastal_bunker = 3
 			}
 		}
-		
 	}
 
 	provinces={

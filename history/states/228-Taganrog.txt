@@ -7,17 +7,19 @@ state={
 	state_category = town
 
 	history={
-
 		owner = OTT
-		
+
+		controller = OTT
+		add_core_of = OTT
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = UKR
 		victory_points = {
 			9461 1
 		}
 		buildings = {
 			infrastructure = 5
 		}
-		
-		
 	}
 
 	provinces={

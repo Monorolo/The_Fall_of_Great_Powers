@@ -7,9 +7,6 @@ state={
 	state_category = wasteland
 
 	history={
-
-		owner = OTT
-		
 		
 		victory_points = {
 			1130 5 
@@ -21,7 +18,13 @@ state={
 				naval_base = 6
 			}
 		}
-		
+	owner = OTT
+
+	controller = OTT
+	add_core_of = EGY
+	add_core_of = OTT
+
+
 	}
 
 	provinces={

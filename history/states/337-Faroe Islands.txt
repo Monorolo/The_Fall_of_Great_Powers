@@ -8,14 +8,17 @@ state=
 	
 	history=
 	{
-		
+	owner = SWE
+	
+	controller = SWE
+	add_core_of = DAN
+	add_core_of = SWE
 		buildings = {
 			infrastructure = 4
 			13003 = {
 				naval_base = 1
 			}
 		}
-		
 	}
 	provinces= { 13003 }
 }

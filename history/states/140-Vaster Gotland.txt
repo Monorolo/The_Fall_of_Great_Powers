@@ -12,10 +12,6 @@ state={
 
 	history={
 		owner = SWE
-		controller = SWE
-
-		add_core_of = SWE
-		
 		victory_points = {
 			11114 1 
 		}
@@ -33,7 +29,7 @@ state={
 				coastal_bunker = 5
 			}
 		}
-		
+		add_core_of = SWE
 	}
 	
 	

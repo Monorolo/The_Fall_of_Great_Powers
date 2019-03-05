@@ -2,32 +2,36 @@
 state={
 	id=225
 	name="STATE_225" # Sumy
-	manpower = 1338280
+	manpower = 2538280
 	
 	state_category = town
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = UKR
-		
+		victory_points = {
+			3520 3
+		}
+		victory_points = {
+			9566 1
+		}
 		buildings = {
 			infrastructure = 5
 		}
-		
 		1936.1.1 = {
 			owner = UKR
+		
 			controller = UKR
-
-			add_core_of = POL
 			add_core_of = EPL
+			add_core_of = POL
 			add_core_of = UKR
 		}
+		owner = POL
 		
+		controller = POL
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = UKR
+
+
 	}
 
 	provinces={

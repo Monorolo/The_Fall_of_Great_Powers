@@ -11,8 +11,12 @@ state={
 	}
 	history={
 
-		owner = OTT
-		
+	owner = OTT
+
+	controller = OTT
+	add_core_of = IND
+	add_core_of = OTT
+
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -21,7 +25,6 @@ state={
 		victory_points = {
 			10737 5 
 		}
-		
 	}
 
 	provinces={

@@ -7,9 +7,14 @@ state={
 	state_category = enclave
 
 	history={
+	owner = ETH
 
-		owner = ETH
-		
+	controller = ETH
+	add_core_of = ETH
+	add_core_of = OTT
+		victory_points = {
+			8124 1
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 2

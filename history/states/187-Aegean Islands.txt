@@ -11,13 +11,6 @@ state={
 	}
 
 	history={
-
-		owner = OTT
-		controller = OTT
-
-		add_core_of = TUR
-		add_core_of = OTT
-		
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
@@ -28,7 +21,13 @@ state={
 				naval_base = 1
 			}
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = GRE
+	add_core_of = OTT
+
 	}
 
 	provinces={

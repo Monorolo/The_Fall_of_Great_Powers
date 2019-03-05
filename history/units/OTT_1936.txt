@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Dywizja Piechoty"		
+	name = "Infantry Division"		
 	division_names_group = OTT_INF_01
 
 	regiments = {
@@ -18,26 +18,7 @@
 	}
 }
 division_template = {
-	name = "Dywizja Górskiej"
-	division_names_group = OTT_MNT_01
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }	
-		mountaineers = { x = 2 y = 1 }	
-		mountaineers = { x = 2 y = 2 }	
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-	}
-}
-division_template = {
-	name = "Brygada Kawalerii" 
+	name = "Cavalry Brigade"
 	division_names_group = OTT_CAV_01
 
 	regiments = {
@@ -50,2734 +31,1315 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Brygada Czołgów"
+	name = "Tank Brigade"
 	division_names_group = OTT_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
 }
 #########################################
 #########################################
 #########################################
 units = {
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"	
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
+		
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
 	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 4961
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7925
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 12806
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10743
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 12862
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2088
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2003
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 11899
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 6814
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"	
 		location = 3767
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 9415
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 2101
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}	
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}	
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 10870
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+}
+division= { name = "Infantry Division"
 
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 7916
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-division= { "Dywizja Piechoty"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
+}
+division= { name = "Infantry Division"
 		location = 5012
-		division_template = "Dywizja Piechoty"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+}	
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "OTT"
+		}
+		requested_factories = 15
+		progress = 0.28
+		efficiency = 100
+	}
 
-	}	
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "OTT"
+		}
+		requested_factories = 2
+		progress = 0.28
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "OTT"
+		}
+		requested_factories = 5
+		progress = 0.28
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "OTT"
+		}
+		requested_factories = 2
+		progress = 0.28
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "OTT"
+		}
+		requested_factories = 3
+		progress = 0.28
+		efficiency = 100
+	}
 }

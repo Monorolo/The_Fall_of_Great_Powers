@@ -7,8 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		owner = ETH
-		
+	owner = ETH
+
+	controller = ETH
+	add_core_of = ETH
+	add_core_of = OTT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -17,9 +20,12 @@ state={
 			}
 		}
 		victory_points = {
+			1939 2
+		}
+		victory_points = {
 			5210 1
 		}
-		
+
 	}
 
 	provinces={

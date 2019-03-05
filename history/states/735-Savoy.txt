@@ -5,14 +5,11 @@ state={
 	state_category = town
 
 	history={
-
-		owner = SWI
-		controller = SWI
-
-		add_core_of = SWI
-		add_core_of = ITA
-		
-		
+	owner = SWI
+	
+	controller = SWI
+	add_core_of = SWI
+	add_core_of = ITA
 		victory_points = {
 			778 1 
 		}

@@ -7,14 +7,6 @@ state={
 	state_category = large_town
 
 	history={
-
-		owner = HUN
-		controller = HUN
-
-		add_core_of = ROM
-		add_core_of = OTT
-		add_core_of = HUN
-		
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -22,11 +14,17 @@ state={
 		victory_points = {
 			11581 3 
 		}
-		
-		
+
+	owner = HUN
+
+	controller = HUN
+	add_core_of = ROM
+	add_core_of = HUN
+	add_core_of = OTT
+
 	}
 
 	provinces={
-		624 3592 3596 3627 6647 9595 9611 11577 11581 11594 
+		624 3592 3596 3627 6647 9595 9611 11577 11580 11581 11594
 	}
 }

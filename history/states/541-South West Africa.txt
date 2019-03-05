@@ -8,17 +8,19 @@ state={
 
 	history={
 		owner = SAF
-		
+
+		controller = SAF
+		add_core_of = SAF
+		add_core_of = OTT
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
 			4879 1
 		}
-		
 	}
 
 	provinces={
-		2207 2229 4879 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921 
+		2207 2229 4879 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921 13217
 	}
 }

@@ -10,7 +10,13 @@ state={
 	}
 	history={
 		owner = LIB
-		
+
+		controller = LIB
+		add_core_of = LIB
+		add_core_of = OTT
+		victory_points = {
+			12891 1
+		}
 		buildings = {
 			infrastructure = 2
 			12891 ={

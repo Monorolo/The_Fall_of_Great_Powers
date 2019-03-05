@@ -7,9 +7,12 @@ state={
 	state_category = city
 
 	history={
-
 		owner = OTT
-		
+
+		controller = OTT
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = OTT
 		victory_points = {
 			9417 15 
 		}
@@ -20,12 +23,6 @@ state={
 			air_base = 3
 			9417 ={
 				naval_base = 5
-			}
-		}
-		
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
 			}
 		}
 	}

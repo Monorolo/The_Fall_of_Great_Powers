@@ -10,13 +10,6 @@ state={
 	state_category = town
 
 	history={
-
-		owner = OTT
-		controller = OTT
-
-		add_core_of = TUR
-		add_core_of = OTT
-		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -25,7 +18,13 @@ state={
 		victory_points = {
 			947 1 
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = OTT
+	add_core_of = TUR
+
 	}
 
 	provinces={

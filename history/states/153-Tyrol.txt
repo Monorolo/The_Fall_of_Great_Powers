@@ -7,13 +7,11 @@ state={
 	state_category = town
 
 	history={
-
-		owner = SWI
-		controller = SWI
-
-		add_core_of = SWI
-		add_core_of = AUS
-		
+	owner = SWI
+	
+	controller = SWI
+	add_core_of = SWI
+	add_core_of = AUS
 		victory_points = {
 			673 5 
 		}
@@ -21,13 +19,6 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
-		}
-		
-
-		1938.3.12 = {
-			
-			
-			
 		}
 	}
 

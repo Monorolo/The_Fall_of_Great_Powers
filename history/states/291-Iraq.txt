@@ -11,9 +11,6 @@ state={
 	}
 
 	history={
-
-		owner = OTT
-		
 		victory_points = {
 			2097 5
 		}
@@ -29,7 +26,13 @@ state={
 				naval_base = 1
 			}
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = PER
+	add_core_of = OTT
+
 	}
 
 	provinces={

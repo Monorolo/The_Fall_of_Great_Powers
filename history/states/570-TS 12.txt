@@ -7,13 +7,8 @@ state={
 	state_category = town
 
 	history={
-
 		owner = RUS
-
-		controller = RUS
 		add_core_of = RUS
-		add_core_of = SOV
-		
 		victory_points = {
 			7274 3 
 		}
@@ -22,7 +17,7 @@ state={
 			industrial_complex = 2
 			air_base = 1
 		}
-		
+		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

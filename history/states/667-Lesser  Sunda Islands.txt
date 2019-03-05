@@ -6,13 +6,9 @@ state={
 	}
 
 	history={
-
 		owner = JAP
-
-		controller = JAP
 		add_core_of = JAP
-		
-		
+		add_core_of = INS
 		buildings = {
 			infrastructure = 3
 			1355 = {

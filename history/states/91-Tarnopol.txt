@@ -1,38 +1,38 @@
 state={
 	id=91
 	name="STATE_91" # Lwow
-	manpower = 6227800
+	manpower = 4027800
 	
-	state_category = megalopolis
+	state_category = city
 	
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = UKR
-		
 		victory_points = {
-			11479 5 
+			11479 3
 		}
+		#victory_points = {
+		#	3483 5
+		#}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4
+			arms_factory = 2
 			air_base = 5
 		}
 
 		1936.1.1 = {
 			owner = EPL
+		
 			controller = EPL
-
-			add_core_of = POL
 			add_core_of = EPL
+			add_core_of = POL
 			add_core_of = UKR
 		}
+		owner = POL
 		
-		
+		controller = POL
+		add_core_of = EPL
+		add_core_of = POL
+		add_core_of = UKR
 	}
 
 	provinces={

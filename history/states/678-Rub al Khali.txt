@@ -7,12 +7,14 @@ state={
 
 	history={
 
-		owner = OTT
-		
 		buildings = {
 			infrastructure = 0
 		}
-		
+	owner = OTT
+
+	controller = OTT
+	add_core_of = SAU
+	add_core_of = OTT
 	}
 
 	provinces={

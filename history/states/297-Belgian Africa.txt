@@ -8,8 +8,14 @@ state=
 	
 	history=
 	{
-		owner = LIB
-		
+		owner = SAF
+
+		controller = SAF
+		add_core_of = SAF
+		add_core_of = OTT
+		victory_points = {
+			1903 1 
+		}
 		buildings = {
 			infrastructure = 2
 			1903 = {

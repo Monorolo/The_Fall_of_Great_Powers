@@ -11,12 +11,8 @@ state=
 	}
 
 	history={
-
-		owner = JAP
-
-		controller = JAP
-		add_core_of = JAP
-		
+		add_core_of = SRL
+		owner = ENG
 		victory_points = {
 			10201 3 
 		}

@@ -8,17 +8,12 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
+	owner = NJP
 
-		owner = NJP
-
-		controller = NJP
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = NJP
-		
-		
-		
-		
+	controller = NJP
+	add_core_of = CHI
+	add_core_of = PRC
+	add_core_of = NJP
 		buildings = {
 			infrastructure = 4
 

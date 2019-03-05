@@ -8,12 +8,8 @@ state=
 
 	history=
 	{
-
 		owner = JAP
-
-		controller = JAP
 		add_core_of = JAP
-		
 		victory_points = {
 			2189 1 
 		}
@@ -23,7 +19,7 @@ state=
 				naval_base = 2
 			}
 		}
-		
+		add_core_of = AST
 	}
 	provinces={
 		2183 2189 5181 5187 10665 12645

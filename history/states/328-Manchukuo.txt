@@ -11,17 +11,12 @@ state={
 	}
 
 	history={
+	owner = NJP
 
-		owner = NJP
-
-		controller = NJP
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = NJP
-		
-		
-		
-		
+	controller = NJP
+	add_core_of = CHI
+	add_core_of = PRC
+	add_core_of = NJP
 		buildings = {
 			infrastructure = 4
 			#industrial_complex = 1

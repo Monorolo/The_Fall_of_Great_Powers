@@ -7,13 +7,6 @@ state={
 	state_category = city
 
 	history={
-
-		owner = OTT
-		controller = OTT
-
-		add_core_of = OTT
-		add_core_of = GRE
-		
 		victory_points = {
 			6923 5
 		}
@@ -23,7 +16,13 @@ state={
 			industrial_complex =2
 			air_base = 2
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = BUL
+	add_core_of = OTT
+
 	}
 
 	provinces={

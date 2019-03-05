@@ -1,0 +1,38 @@
+			Alpha 1.0
+
+- first Alpha
+
+
+			Alpha 1.1
+
+- conversion "Elbing" to "New Germany"
+
+- add leaders for "New Germany"
+
+- add leaders for Gdañsk
+
+- add Flag for Gdañsk
+
+- add new tag "RUS" "IND" "NJP"
+
+			Alpha 1.2
+
+- bugs fixed
+
+- add Soviet - Russia War
+
+- add new countries : "Japan" "Russia" "New Japan" "India" "Soviet Union" "PR.China" "China" "Mongolia"
+
+			Alpha 1.3
+
+- fix New German - Balkan War
+
+- add Infantry "China" "PR China" "Mongolia" "Soviet Union" "Russia"
+
+- add China - PR China War
+
+- add infantry "Japan" "New Japan Empire"
+
+- add the initial equipment production (all nation)
+
+- update to 1.6 ironclad

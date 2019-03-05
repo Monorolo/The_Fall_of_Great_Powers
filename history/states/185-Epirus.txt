@@ -12,13 +12,15 @@ state={
 	}
 
 	history={
-
-		owner = OTT
-		controller = OTT
-
-		add_core_of = OTT
-		add_core_of = GRE
-		
+		victory_points = {
+			10203 1
+		}
+		victory_points = {
+			3914 3
+		}
+		victory_points = {
+			1205 1
+		}
 		buildings = {
 			infrastructure = 4
 			air_base = 3
@@ -26,7 +28,13 @@ state={
 				naval_base = 1
 			}
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = GRE
+	add_core_of = OTT
+
 	}
 
 	provinces={

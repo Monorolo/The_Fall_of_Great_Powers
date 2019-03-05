@@ -1,0 +1,44 @@
+
+state={
+	id=763
+	name="STATE_763"
+	manpower = 3140234
+	state_category = city
+
+	resources={
+		steel=14.163
+		oil=2.999
+	}
+
+
+	history={
+		victory_points = {
+			6332 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 4
+			air_base = 6
+
+		}
+		
+
+		1936.1.1 = {
+			owner = NGR
+			controller = NGR
+		
+			add_core_of = NGR
+			add_core_of = GER
+		}
+		owner = GER
+		controller = GER
+		add_core_of = NGR
+		add_core_of = GER
+		
+	}
+
+	provinces={
+		281 348 395 3384 6332 11265
+	}
+}

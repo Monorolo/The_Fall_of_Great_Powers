@@ -12,13 +12,13 @@ state={
 	}
 
 	history={
+	owner = IND
 
-
-		owner = IND
-		controller = IND
-		add_core_of = IND
-		add_core_of =
-		
+	controller = IND
+	add_core_of = IND
+		victory_points = {
+			2054 1
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

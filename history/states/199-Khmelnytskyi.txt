@@ -2,34 +2,35 @@
 state={
 	id=199
 	name="STATE_199"
-	manpower = 1424022
+	manpower = 2624022
 	
 	state_category = town
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = UKR
-		
+		victory_points = {
+			3457 3
+		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
 		}
-		
+
 		1936.1.1 = {
 			owner = UKR
+		
 			controller = UKR
-
-			add_core_of = POL
 			add_core_of = EPL
+			add_core_of = POL
 			add_core_of = UKR
 		}
+		owner = POL
 		
+		controller = POL
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = UKR
+
 	}
 
 	provinces={

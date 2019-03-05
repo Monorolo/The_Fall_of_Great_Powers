@@ -8,16 +8,12 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = wasteland
 	history={
+	owner = MON
 
-		owner = PRC
-
-		controller = PRC
-		add_core_of = PRC
-		add_core_of = CHI
-		
-		
-		
-		
+	controller = PRC
+	add_core_of = PRC
+	add_core_of = CHI
+	add_core_of = MON
 		buildings = {
 			infrastructure = 1
 

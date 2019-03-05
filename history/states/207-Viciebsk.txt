@@ -4,17 +4,9 @@ state={
 	name="STATE_207"
 	manpower =  2217854
 	
-	state_category = city
+	state_category = town
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = BLR
-		
 		victory_points = {
 			11241 5
 		}
@@ -25,13 +17,19 @@ state={
 
 		1936.1.1 = {
 			owner = BLR
+		
 			controller = BLR
-
-			add_core_of = POL
 			add_core_of = EPL
+			add_core_of = POL
 			add_core_of = BLR
 		}
+		owner = POL
 		
+		controller = POL
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = BLR
+
 	}
 
 	provinces={

@@ -6,14 +6,14 @@ state={
 	state_category = pastoral
 
 	history={
+	owner = CHI
 
-		owner = CHI
-
-		controller = CHI
-		add_core_of = PRC
-		add_core_of = CHI
-		
-		
+	controller = CHI
+	add_core_of = PRC
+	add_core_of = CHI
+		victory_points = {
+			1464 1
+		}
 		buildings = {
 			infrastructure = 2
 		}

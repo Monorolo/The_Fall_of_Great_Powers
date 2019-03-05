@@ -6,7 +6,11 @@ state={
 	state_category = small_island
 
 	history={
-		
+		owner = SAF
+
+		controller = SAF
+		add_core_of = SAF
+		add_core_of = OTT
 		buildings = {
 			infrastructure = 3
 			13017 = {

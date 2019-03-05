@@ -2,19 +2,14 @@
 state={
 	id=198
 	name="STATE_198"
-	manpower = 1893391
+	manpower = 2693391
 
 	state_category = large_town
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = UKR
-	
+		victory_points = {
+			476 3
+		}
 		buildings = {
 			infrastructure = 5
 			air_base = 3
@@ -22,13 +17,19 @@ state={
 
 		1936.1.1 = {
 			owner = UKR
-			controller = UKR
-
-			add_core_of = POL
-			add_core_of = EPL
-			add_core_of = UKR
-		}		
 		
+			controller = UKR
+			add_core_of = EPL
+			add_core_of = POL
+			add_core_of = UKR
+		}
+		owner = POL
+		
+		controller = POL
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = UKR
+
 	}
 
 	provinces={

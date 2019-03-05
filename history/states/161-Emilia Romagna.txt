@@ -11,12 +11,7 @@ state={
 	}
 
 	history={
-
 		owner = ITA
-		controller = ITA
-
-		add_core_of = ITA
-		
 		victory_points = {
 			6606 3 
 		}
@@ -28,7 +23,7 @@ state={
 				naval_base = 2
 			}
 		}
-		
+		add_core_of = ITA
 	}
 
 	provinces={

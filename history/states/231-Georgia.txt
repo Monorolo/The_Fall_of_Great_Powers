@@ -3,9 +3,6 @@ state={
 	name="STATE_231"
 
 	history={
-
-		owner = OTT
-		
 		victory_points = {
 			1599 5 
 		}
@@ -13,8 +10,6 @@ state={
 			3653 3 
 		}
 		buildings = {
-
-
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 3
@@ -25,15 +20,13 @@ state={
 			}
 
 		}
-		
-		
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
+		owner = OTT
 
-			}
+		controller = OTT
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = OTT
 
-		}
 
 	}
 

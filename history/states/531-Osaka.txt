@@ -9,13 +9,8 @@ state={
 	}
 
 	history={
-
 		owner = JAP
-
-		controller = JAP
 		add_core_of = JAP
-		
-		
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

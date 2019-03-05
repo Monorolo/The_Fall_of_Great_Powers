@@ -10,7 +10,10 @@ state={
 	}
 	history={
 		owner = LIB
-		
+
+		controller = LIB
+		add_core_of = LIB
+		add_core_of = OTT
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0

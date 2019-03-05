@@ -2,7 +2,7 @@
 state={
 	id=226
 	name="STATE_226" # Dnipropertovsk
-	manpower = 2391047
+	manpower = 2791047
 	
 	state_category = town
 	
@@ -11,14 +11,6 @@ state={
 	}
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = UKR
-		
 		victory_points = {
 			11437 10 
 		}
@@ -30,16 +22,22 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
-		
+
 		1936.1.1 = {
 			owner = UKR
+		
 			controller = UKR
-
-			add_core_of = POL
 			add_core_of = EPL
+			add_core_of = POL
 			add_core_of = UKR
 		}
+		owner = POL
 		
+		controller = POL
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = UKR
+
 	}
 
 	provinces={

@@ -7,16 +7,18 @@ state={
 	state_category = large_city
 
 	history={
-		owner = LUX
-		controller = LUX
-
-		add_core_of = LUX
-		
+	owner = LUX
+	
+	controller = LUX
+	add_core_of = LUX
 		victory_points = {
 			3516 5
 		}
 		victory_points = {
 			11519 10
+		}
+		victory_points = {
+			9536 3
 		}
 		buildings = {
 			infrastructure = 6
@@ -25,7 +27,6 @@ state={
 			air_base = 1
 
 		}
-		
 	}
 
 	provinces={

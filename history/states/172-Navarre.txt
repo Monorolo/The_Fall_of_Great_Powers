@@ -11,12 +11,11 @@ state={
 	}
 
 	history={
-		owner = GER
-		controller = GER
-
-		add_core_of = GER
-		add_core_of = SPR		
-		
+	owner = GER
+	
+	controller = GER
+	add_core_of = GER
+	add_core_of = SPR
 		victory_points = {
 			740 3 
 		}
@@ -29,7 +28,6 @@ state={
 				naval_base = 1
 			}
 		}
-		
 	}
 
 	provinces={

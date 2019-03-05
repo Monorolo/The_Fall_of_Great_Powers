@@ -6,12 +6,8 @@ state={
 	state_category = large_city
 	
 	history={
-
 		owner = JAP
-
-		controller = JAP
 		add_core_of = JAP
-		
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -40,7 +36,7 @@ state={
 		victory_points = {
 			7520 1 
 		}
-		
+		add_core_of = AST
 	}
 
 	provinces={

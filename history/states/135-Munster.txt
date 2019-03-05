@@ -7,12 +7,11 @@ state={
 	state_category = town
 
 	history={
-		owner = ENG
-		controller = ENG
-
-		add_core_of = ENG
-		add_core_of = IRE
-		
+	owner = ENG
+	
+	controller = ENG
+	add_core_of = ENG
+	add_core_of = IRE
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -20,7 +19,6 @@ state={
 		victory_points = {
 			7394 1 
 		}
-		
 	}
 
 	provinces={

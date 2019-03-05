@@ -2,42 +2,41 @@
 state={
 	id=202
 	name="STATE_202"
-	manpower = 4495352
+	manpower = 2495352
 	resources={
 		oil=8 # was: 14
 		aluminium=7 # was: 12
 	}
 	
-	state_category = large_city
+	state_category = city
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = UKR
-		
 		victory_points = {
 			525 25
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 3
-			industrial_complex = 2
+			arms_factory = 2
+			industrial_complex = 1
+			fuel_silo = 1
 			air_base = 8
 		}
-		
+
 		1936.1.1 = {
 			owner = UKR
-			controller = UKR
-
-			add_core_of = POL
-			add_core_of = EPL
-			add_core_of = UKR
-		}	
 		
+			controller = UKR
+			add_core_of = EPL
+			add_core_of = POL
+			add_core_of = UKR
+		}
+		owner = POL
+		
+		controller = POL
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = UKR
+
 	}
 
 	provinces={

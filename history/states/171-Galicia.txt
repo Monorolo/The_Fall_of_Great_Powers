@@ -7,14 +7,17 @@ state={
 	state_category = city
 
 	history={
-		owner = GER
-		controller = GER
-
-		add_core_of = GER
-		add_core_of = SPR
-		
+	owner = GER
+	
+	controller = GER
+	add_core_of = GER
+	add_core_of = SPR
+	add_core_of = POR
 		victory_points = {
-			758 3 
+			758 3
+		}
+		victory_points = {
+			6734 1
 		}
 		buildings = {
 			infrastructure = 6
@@ -25,7 +28,6 @@ state={
 				naval_base = 6
 			}
 		}
-		
 	}
 
 	provinces={

@@ -6,20 +6,21 @@ state={
 	}
 
 	history={
-
-		owner = OTT
-		
 		victory_points = {
-			7661 1 
+			7661 10 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+			fuel_silo = 1
 			air_base = 1
-
 		}
-		
-		
+		owner = OTT
+
+		controller = OTT
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = OTT
 
 	}
 

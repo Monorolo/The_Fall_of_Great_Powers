@@ -6,9 +6,6 @@ state={
 	state_category = pastoral
 
 	history={
-
-		owner = OTT
-		
 		victory_points = {
 			12758 1 
 		}
@@ -21,7 +18,13 @@ state={
 				naval_base = 5
 			}
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = SAU
+	add_core_of = OTT
+
 	}
 
 	provinces={

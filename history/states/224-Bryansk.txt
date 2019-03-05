@@ -2,19 +2,11 @@
 state={
 	id=224
 	name="STATE_224"
-	manpower = 3707567
+	manpower = 1707567
 	
-	state_category = city
+	state_category = town
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = BLR
-		
 		victory_points = {
 			3335 10
 		}
@@ -22,15 +14,20 @@ state={
 			infrastructure = 5
 			air_base = 2
 		}
-		
-		1936.1.1 = {
-			owner = BLR
-			controller = BLR
+	1936.1.1 = {
+		owner = BLR
 
-			add_core_of = POL
-			add_core_of = EPL
-			add_core_of = BLR
-		}
+		controller = BLR
+		add_core_of = EPL
+		add_core_of = POL
+		add_core_of = BLR
+	}
+	owner = POL
+	
+	controller = POL
+	add_core_of = POL
+	add_core_of = EPL
+	add_core_of = BLR
 
 	}
 

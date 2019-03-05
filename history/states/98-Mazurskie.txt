@@ -1,21 +1,29 @@
 state={
 	id=98
 	name="STATE_98"
-	manpower = 2412100
+	manpower = 2612100
 	
-	state_category = town
+	state_category = rural
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		
+		victory_points = {
+			3230 5
+		}
 		buildings = {
 			infrastructure = 6
 		}
-		
+1936.1.1 = {
+		owner = POL
+
+		controller = POL
+		add_core_of = EPL
+		add_core_of = POL
+	}
+	owner = POL
+	
+	controller = POL
+	add_core_of = POL
+	add_core_of = EPL
+
 	}
 
 	provinces={

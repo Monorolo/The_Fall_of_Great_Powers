@@ -7,18 +7,26 @@ state={
 	state_category = rural
 
 	history={
-
-		owner = OTT
-		controller = OTT
-
-		add_core_of = TUR
-		add_core_of = OTT
-		
+		victory_points = {
+			4512 1
+		}
+		victory_points = {
+			9823 1
+		}
+		victory_points = {
+			7620 1
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 		}
-		
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = OTT
+	add_core_of = TUR
+
 	}
 
 	provinces={

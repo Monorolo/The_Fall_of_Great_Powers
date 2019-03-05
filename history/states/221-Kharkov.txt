@@ -2,7 +2,7 @@
 state={
 	id=221
 	name="STATE_221"
-	manpower = 3227520
+	manpower = 3527520
 	
 	state_category = city
 	
@@ -11,37 +11,30 @@ state={
 	}
 
 	history={
-
-		owner = POL
-		controller = POL
-
-		add_core_of = POL
-		add_core_of = EPL
-		add_core_of = UKR
-		
 		victory_points = {
 			418 10
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 2
+			arms_factory = 1
 			air_base = 5
 		}
-		
+
 		1936.1.1 = {
 			owner = UKR
-			controller = UKR
-
-			add_core_of = POL
-			add_core_of = EPL
-			add_core_of = UKR
-			}
 		
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
+			controller = UKR
+			add_core_of = EPL
+			add_core_of = POL
+			add_core_of = UKR
 		}
+		owner = POL
+		
+		controller = POL
+		add_core_of = POL
+		add_core_of = EPL
+		add_core_of = UKR
+
 	}
 
 	provinces={

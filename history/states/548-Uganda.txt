@@ -6,14 +6,19 @@ state={
 	resources={
 		rubber=3 # was: 4
 	}
-	history= {
-		owner = ETH
-		
+	history={
+	owner = ETH
+
+	controller = ETH
+	add_core_of = ETH
+	add_core_of = OTT
 		buildings = {
 			infrastructure = 3
 
 		}
-		
+		victory_points = {
+			12989 1
+		}
 	}
 
 	provinces={

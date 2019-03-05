@@ -4,6 +4,14 @@ oob = "IND_1936"
 
 set_research_slots = 3
 
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "IND_1936_naval_mtg"
+	else = {
+		set_naval_oob = "IND_1936_naval_legacy"
+	}
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -14,14 +22,32 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	improved_light_tank = 1
-        gwtank = 1
+	gwtank = 1
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
-	early_destroyer = 1
-	early_submarine = 1	
 	trench_warfare = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1	
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+	}
 }
 
 set_convoys = 300
@@ -52,10 +78,10 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
+	create_country_leader = {
 	name = "None"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Erich_Koch.dds"
+	desc = "None"
+	picture = "None"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -65,8 +91,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "None"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Ludwig_Hubert_von_Windheim.dds"
+	desc = "None"
+	picture = "None"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -76,8 +102,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "None"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "Adolf_Tortilowicz_von_Batocki-Friebe.dds"
+	desc = "None"
+	picture = "None"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -87,18 +113,18 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "None"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "Erich_Koch.dds"
+	desc = "None"
+	picture = "None"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = falangism
 	traits = {
 		#
 	}
 }
 
 create_field_marshal = {
-	name = "Władysław Sikorski"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	name = "None"
+	picture = "None"
 	traits = { defensive_doctrine }
 	skill = 3
 	attack_skill = 2
@@ -108,8 +134,8 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Władysław Bortnowski"
-	gfx = "GFX_POL_wladyslaw_bortnowski"
+	name = "None"
+	gfx = "None"
 	traits = {  thorough_planner }
 	skill = 3
 	attack_skill = 2
@@ -119,8 +145,8 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Stanisław Kopański"
-	gfx = "GFX_POL_stanislav_kopanski"
+	name = "None"
+	gfx = "None"
 	traits = {  offensive_doctrine }
 	skill = 3
 	attack_skill = 3
@@ -130,8 +156,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Władysław Anders"
-	gfx = "GFX_POL_wladislaw_anders"
+	name = "None"
+	gfx = "None"
 	traits = {  armor_officer }
 	skill = 4
 	attack_skill = 4
@@ -141,8 +167,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Roman Abraham"
-	gfx = "GFX_POL_roman_abraham"
+	name = "None"
+	gfx = "None"
 	traits = {  }
 	skill = 4
 	attack_skill = 3
@@ -152,8 +178,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wincenty Kowalski"
-	gfx = "GFX_POL_wincenty_kowalski"
+	name = "None"
+	gfx = "None"
 	traits = { trickster }
 	skill = 3
 	attack_skill = 3
@@ -162,13 +188,3 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
-create_equipment_variant = {
-	name = "PZL P.24"
-	type = fighter_equipment_0
-	upgrades = {
-		plane_gun_upgrade = 3
-		plane_range_upgrade = 0  
-		plane_engine_upgrade = 1
-		plane_reliability_upgrade = 3
-	}
-}

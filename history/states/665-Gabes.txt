@@ -3,13 +3,19 @@ state={
 	name="STATE_665"
 
 	history={
-
-		owner = OTT
-		
+		victory_points = {
+			7005 1 
+		}
 		buildings = {
 			infrastructure = 3
 
 		}
+
+	owner = OTT
+
+	controller = OTT
+	add_core_of = MOR
+	add_core_of = OTT
 	}
 	
 	state_category = pastoral

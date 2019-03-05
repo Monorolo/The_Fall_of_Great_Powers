@@ -7,16 +7,19 @@ state={
 	state_category = wasteland
 
 	history={
-
-		owner = OTT
-		
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			10913 1 
 		}
-		
+	owner = OTT
+
+	controller = OTT
+	add_core_of = PER
+	add_core_of = OTT
+
+
 	}
 
 	provinces={

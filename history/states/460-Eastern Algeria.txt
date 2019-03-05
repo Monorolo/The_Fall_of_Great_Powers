@@ -7,11 +7,23 @@ state={
 	state_category = town
 
 	history={
+	owner = OTT
 
-		owner = OTT
-		
+	controller = OTT
+	add_core_of = MOR
+	add_core_of = OTT
+		victory_points = {
+			7081 1 
+		}
+		victory_points = {
+			12051 3 
+		}
 		buildings = {
 			infrastructure = 4
+			7081 = {
+				naval_base = 1
+			}
+
 		}
 	}
 

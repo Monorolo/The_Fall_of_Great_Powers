@@ -11,14 +11,12 @@ state={
 	state_category = town
 
 	history={
-
 		owner = GER
-		controller = GER
-
-		add_core_of = GER
-		
 		victory_points = {
-			6282 1
+			6282 5
+		}
+		victory_points = {
+			11372 3
 		}
 		buildings = {
 			infrastructure = 6
@@ -32,7 +30,7 @@ state={
 			}
 			air_base = 3
 		}
-		
+		add_core_of = GER
 	}
 
 	provinces={

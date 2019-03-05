@@ -8,13 +8,14 @@ state={
 	impassable = yes
 
 	history={
+	owner = OTT
 
-		owner = OTT
-		
+	controller = OTT
+	add_core_of = EGY
+	add_core_of = OTT
 		buildings = {
 			infrastructure = 0
 		}
-		
 	}
 
 	provinces={

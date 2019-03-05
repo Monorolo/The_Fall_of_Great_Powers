@@ -7,13 +7,18 @@ state={
 	state_category = rural
 
 	history={
-
 		owner = OTT
-		
+
+		controller = OTT
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = OTT
 		buildings = {
 			infrastructure = 4
 		}
-		
+		victory_points = {
+			775 1 # City of Volgodonsk only founded in 1950 to service the new reservoir
+		}
 	}
 
 	provinces={

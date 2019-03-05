@@ -7,20 +7,20 @@ state=
 	state_category = enclave
 	
 	history={
-
-		owner = OTT
-		controller = OTT
-
-		add_core_of = OTT
-		add_core_of = GRE
-		
 		buildings = {
 			infrastructure = 5
 			3943 = {
 				naval_base = 1
 			}
 		}
-	} 
+		owner = OTT
+
+		controller = OTT
+		add_core_of = HUN
+		add_core_of = OTT
+
+	}
+
 	provinces={	
 		3943 
 	}

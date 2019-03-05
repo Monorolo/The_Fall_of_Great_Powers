@@ -6,15 +6,22 @@ state={
 	}
 
 	history={
-
 		owner = OTT
-		
+
+		controller = OTT
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = OTT
 		buildings = {
 			infrastructure = 3
 
 		}
-		
-
+		victory_points = {
+			9628 3
+		}
+		victory_points = {
+			9663 1
+		}
 	}
 
 	provinces={
