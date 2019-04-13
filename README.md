@@ -32,7 +32,7 @@ CSA - Confederate States of America
 - 1895, Before the First European War
 - 1898, the first European war
 - 1916, the end of the First European War
-- 1915, 4th Asian war
+- 1915, fourth Asian war
 - 1930, Time before the Second World War (the first war took place in 1830)
 - 1935, Hitler's plan
 - 1936, Communist revolution in Asia
