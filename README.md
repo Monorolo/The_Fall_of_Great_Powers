@@ -37,7 +37,7 @@ CSA - Confederate States of America
 - 1935, Hitler's plan
 - 1936, Communist revolution in Asia
 - more in the future
-Initially, I want to deal only with scenarios from 1935 and 1936, because the following dates require a new "technology tree" and I still do not know how to do it (because this is my first modification)
+Initially, I want to deal only with scenarios from 1935 and 1936, because the following dates require a new technology tree and I still do not know how to do it (because this is my first modification)
 
 if someone has an idea and fits the concept of modification, it can appear in it
 
