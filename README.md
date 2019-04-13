@@ -26,7 +26,7 @@ CSA - Confederate States of America
 - the Swedish state and the Polish-Lithuanian Commonwealth did not fight with each other and did not break up
 - World War I never took place, and the first European war in 1898-1916 took place instead
 - China, Russia and Mongolia created the "Asian Pact" in 1920
-- Rzeczpospolita became Poland under the influence of the vote, in which Lithuania returned to the map, and soon afterwards the eastern part of Poland, once under the control of Lithuania, rebelled and Poland broke up
+- Commonwealth became Poland under the influence of the vote, in which Lithuania returned to the map, and soon afterwards the eastern part of Poland, once under the control of Lithuania, rebelled and Poland broke up
 - and many more that will be described in the game
 5.Scenarios are planned:
 - 1895, Before the First European War
