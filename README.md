@@ -29,13 +29,13 @@ CSA - Confederate States of America
 - Rzeczpospolita became Poland under the influence of the vote, in which Lithuania returned to the map, and soon afterwards the eastern part of Poland, once under the control of Lithuania, rebelled and Poland broke up
 - and many more that will be described in the game
 5.Scenarios are planned:
-- 1895 Before the First European War
+- 1895, Before the First European War
 - 1898, the first European war
 - 1916, the end of the First European War
 - 1915, 4th Asian war
 - 1930, Time before the Second World War (the first war took place in 1830)
-- 1935. Hitler's plan
-- 1936. Communist revolution in Asia
+- 1935, Hitler's plan
+- 1936, Communist revolution in Asia
 - more in the future
 Initially, I want to deal only with scenarios from 1935 and 1936, because the following dates require a new "technology tree" and I still do not know how to do it (because this is my first modification)
 
